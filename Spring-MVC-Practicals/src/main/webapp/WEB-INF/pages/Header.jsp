@@ -24,7 +24,7 @@
 	</c:if>
 	<c:if test="${empty sessionScope.user}">
 		<h3>Hi, Guest</h3>
-		<a href="<c:url value="/Welcome"/>"><b>Welcome</b></a>
+		<a href="<c:url value="/WelcomeCtl"/>"><b>Welcome</b></a>
 		<b>|</b>
 		<a href="<c:url value="/Login"/>"><b>Login</b></a>
 	</c:if>

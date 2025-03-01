@@ -31,7 +31,7 @@
 				</tr>
 				<tr>
 					<th align="left">Date Of Birth :</th>
-					<td><sf:input path="dob" /></td>
+					<td><sf:input path="dob" type="date" /></td>
 				</tr>
 				<tr>
 					<th align="left">Address :</th>
